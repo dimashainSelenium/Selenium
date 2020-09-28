@@ -118,6 +118,7 @@ public class Test10 {
         rgb[2] = rgb[2].replaceAll("null","").replace(',',' ').trim();
 
         Assert.assertTrue(Integer.parseInt(rgb[0])>Integer.parseInt(rgb[1]));
+        Assert.assertTrue(Integer.parseInt(rgb[0])>Integer.parseInt(rgb[2]));
     }
 
     public void greyCheck(String color)
